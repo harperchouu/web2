@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>現代感風格網頁</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #764ba2;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?technology') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>我的現代感網頁</h2>
+  </header>
+
+  <nav>
+    <a href="#">首頁</a>
+    <a href="#">關於我們</a>
+    <a href="#">服務項目</a>
+    <a href="#">聯絡方式</a>
+  </nav>
+
+  <section class="hero">
+    <h1>科技 x 美感</h1>
+  </section>
+
+  <main class="container">
+    <div class="card">
+      <h2>最新消息</h2>
+      <p>這是一段可以放最新動態、活動資訊或介紹內容的區塊。</p>
+    </div>
+
+    <div class="card">
+      <h2>我們的理念</h2>
+      <p>本網頁致力於提供簡潔、有質感的視覺設計，讓使用者獲得最佳的瀏覽體驗。</p>
+    </div>
+
+    <div class="card">
+      <h2>聯絡我們</h2>
+      <p>Email：example@example.com<br>電話：02-1234-5678</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 現代風格網頁設計. 保留所有權利。
+  </footer>
+
+</body>
+</html>
